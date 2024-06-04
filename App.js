@@ -48,7 +48,7 @@ export default function App() {
   }
   return (
     <View style={styles.appContainer}>
-      <StatusBar style="light" />
+      <StatusBar style="dark" />
       <LinearGradient
         colors={[Colors.secondary600, Colors.primary600]}
         locations={[0.75, 1]}
